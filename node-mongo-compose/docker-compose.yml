@@ -1,7 +1,7 @@
-version: '3.7'
+version: '3'
 services:
   db:
-    image: mongo:3.4
+    image: mongo:3.6
   backend:
     image: node:8.1
     volumes:
